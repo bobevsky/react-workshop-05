@@ -1,0 +1,35 @@
+.Image {
+  height: 250px;
+  width: 300px;
+  display: inline-block;
+  position: relative;
+}
+
+.Image:hover i { display: block; }
+
+.Image img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.Image i {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: tomato;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.Imagelist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
